@@ -14,7 +14,7 @@ public class CanvasActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_canvas);
 
-       final ConstraintLayout mylayout2=findViewById(R.id.layout2);
+        final ConstraintLayout mylayout2=findViewById(R.id.layout2);
 
 
         Intent myIntent2 = getIntent();

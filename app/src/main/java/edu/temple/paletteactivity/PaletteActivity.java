@@ -18,11 +18,11 @@ public class PaletteActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         final ConstraintLayout mylayout=findViewById(R.id.layout);
-       // final ConstraintLayout mylayout2=findViewById(R.id.layout2);
+        // final ConstraintLayout mylayout2=findViewById(R.id.layout2);
 
 
         final Spinner textSpinner = findViewById(R.id.spinner);
-        final String[] colors =  {"Blue","Cyan", "Gray","Green","Magenta", "Red","Yellow", "Teal", "DarkGray","LightGray","Lime"};
+        final String[] colors =  {"Please select a color","Blue","Cyan", "Gray","Green","Magenta", "Red","Yellow", "Teal", "DarkGray","LightGray","Lime"};
 
 
 

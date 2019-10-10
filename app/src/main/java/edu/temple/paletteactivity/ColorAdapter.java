@@ -52,12 +52,17 @@ public class ColorAdapter extends BaseAdapter {
             textView = (TextView) convertView;
         else
             textView = new TextView(context);
-
         String colorValue = colors[postion];
+        if(postion!= 0) {
 
+
+
+            textView.setBackgroundColor(Color.parseColor(colorValue));
+        }
         textView.setText(colorValue);
 
-        textView.setBackgroundColor(Color.parseColor(colorValue));
+
+
 
         textView.setTextSize(22);
 
