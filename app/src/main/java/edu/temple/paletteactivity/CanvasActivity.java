@@ -19,8 +19,9 @@ public class CanvasActivity extends AppCompatActivity {
 
         Intent myIntent2 = getIntent();
         String [] colors2 = myIntent2.getStringArrayExtra("colors");
+        String [] colors2En=myIntent2.getStringArrayExtra("colors2");
         int index = myIntent2.getIntExtra("index",-1);
-        mylayout2.setBackgroundColor(Color.parseColor(colors2[index]));
+        mylayout2.setBackgroundColor(Color.parseColor(colors2En[index]));
 
 
     }

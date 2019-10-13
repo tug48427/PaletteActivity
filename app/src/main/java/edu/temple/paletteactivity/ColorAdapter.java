@@ -2,6 +2,7 @@ package edu.temple.paletteactivity;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.res.Resources;
 import android.graphics.Color;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,15 +15,16 @@ public class ColorAdapter extends BaseAdapter {
     private int count;
     private final Context context;
     private final String[] colors;
+    private final String[] enColors;
 
 
 
 
-
-    public ColorAdapter (Activity context, String[] colors, int length){
+    public ColorAdapter (Activity context, String[] colors, int length,String[] colors2){
         this.colors=colors;
         this.context=context;
         this.count=length;
+        this.enColors=colors2;
 
 
     }
@@ -53,11 +55,15 @@ public class ColorAdapter extends BaseAdapter {
         else
             textView = new TextView(context);
         String colorValue = colors[postion];
-        if(postion!= 0) {
+        String colorValueEn = enColors[postion];
 
 
 
-            textView.setBackgroundColor(Color.parseColor(colorValue));
+
+
+
+        if(postion != 0) {
+            textView.setBackgroundColor(Color.parseColor(colorValueEn));
         }
         textView.setText(colorValue);
 
