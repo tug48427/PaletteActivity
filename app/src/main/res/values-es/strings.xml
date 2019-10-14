@@ -5,7 +5,7 @@
 
 
     <string-array name="colorsStr">
-        <item>selecionar un color</item>
+        <item>selecciona un color</item>
         <item>azul</item>
         <item>cian</item>
         <item>gris</item>
