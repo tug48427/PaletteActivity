@@ -30,7 +30,7 @@ public class PaletteActivity extends AppCompatActivity {
 
 
         final Spinner textSpinner = findViewById(R.id.spinner);
-        final String[] colorsHard =  {"Please select a color","Blue","Cyan", "Gray","Green","Magenta", "Red","Yellow", "Teal", "DarkGray","LightGray","Lime"};
+        //final String[] colorsHard =  {"Please select a color","Blue","Cyan", "Gray","Green","Magenta", "Red","Yellow", "Teal", "DarkGray","LightGray","Lime"};
         Resources res = getApplicationContext().getResources();
         final String [] colors = res.getStringArray(R.array.colorsStr);
 
