@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name='PaletteActivity'
+rootProject.name='Lab6PaletteActivity'

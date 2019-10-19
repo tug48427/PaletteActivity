@@ -1,4 +1,20 @@
 <resources>
     <string name="app_name">Palette Activity</string>
-    <string name="app_name2">Canvas Activity</string>
+
+
+
+    <string-array name="colorsStr">
+        <item>Pick a color</item>
+        <item>Blue</item>
+        <item>Cyan</item>
+        <item>Gray</item>
+        <item>Green</item>
+        <item>Magenta</item>
+        <item>Red</item>
+        <item>Yellow</item>
+        <item>Teal</item>
+        <item>DarkGray</item>
+        <item>LightGray</item>
+        <item>Lime</item>
+    </string-array>
 </resources>
