@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">actividad de paleta</string>
+
+
+
+    <string-array name="colorsStr">
+        <item>recoger un color</item>
+        <item>azul</item>
+        <item>cian</item>
+        <item>gris</item>
+        <item>verde</item>
+        <item>mangenta</item>
+        <item>rojo</item>
+        <item>amarillo</item>
+        <item>verde azulado</item>
+        <item>gris oscuro</item>
+        <item>gris claro</item>
+        <item>lima</item>
+    </string-array>
+
+</resources>
